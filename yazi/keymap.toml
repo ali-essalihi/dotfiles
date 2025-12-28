@@ -1,0 +1,6 @@
+[[mgr.prepend_keymap]]
+on   = "H"
+run  = "hidden"
+desc = "Toggle hidden files"
+
+
