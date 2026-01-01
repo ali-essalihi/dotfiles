@@ -4,7 +4,9 @@ bash-completion
 bat
 brightnessctl
 btop
+cava
 clang
+cmatrix
 docker
 efibootmgr
 eza
@@ -29,6 +31,7 @@ less
 linux-firmware
 linux-zen
 ly
+mako
 man-db
 man-pages
 nano

@@ -1,0 +1,131 @@
+### =========================
+### GLOBAL SETTINGS
+### =========================
+
+# Font
+font=JetBrains Mono 10
+
+# Sort newest notifications on top
+sort=-time
+
+# Keep some history
+max-history=10
+history=1
+
+# Show up to 5 notifications at once
+max-visible=5
+
+# Ignore app timeouts and control it ourselves
+ignore-timeout=1
+default-timeout=5000
+
+
+### =========================
+### POSITIONING (Hyprland-friendly)
+### =========================
+
+# Show on focused monitor
+output=
+
+# Top right corner
+anchor=top-right
+
+# Above normal windows
+layer=overlay
+
+# Distance from screen edges
+outer-margin=20
+margin=10
+
+
+### =========================
+### APPEARANCE
+### =========================
+
+# Transparent black background
+background-color=#000000CC
+
+# White text
+text-color=#FFFFFFFF
+
+# Border
+border-size=2
+border-color=#FFFFFF33
+border-radius=10
+
+# Padding inside notification
+padding=10
+
+# Notification size
+width=320
+height=110
+
+# Icons
+icons=1
+max-icon-size=48
+icon-location=left
+icon-border-radius=6
+
+# Progress bar color
+progress-color=over #FFFFFFFF
+
+# Text formatting
+markup=1
+text-alignment=left
+
+# Format
+format=<b>%s</b>\n%b
+
+
+### =========================
+### MOUSE / TOUCH ACTIONS
+### =========================
+
+# Left click → open notification
+on-button-left=invoke-default-action
+
+# Right click → dismiss
+on-button-right=dismiss
+
+# Middle click → dismiss all
+on-button-middle=dismiss-all
+
+# Touch → dismiss
+on-touch=dismiss
+
+
+### =========================
+### GROUPING
+### =========================
+
+# Group notifications from the same app
+group-by=app-name
+
+
+### =========================
+### GROUPED NOTIFICATIONS STYLE
+### =========================
+
+[grouped]
+format=(%g) <b>%s</b>\n%b
+invisible=1
+
+[group-index=0]
+invisible=0
+
+
+### =========================
+### URGENCY STYLES
+### =========================
+
+[urgency=low]
+border-color=#FFFFFF22
+
+[urgency=normal]
+border-color=#FFFFFF44
+
+[urgency=critical]
+border-color=#FF5555FF
+background-color=#000000EE
+default-timeout=0
+

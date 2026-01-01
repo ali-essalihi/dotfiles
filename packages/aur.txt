@@ -1,3 +1,5 @@
 clipse
+pipes.sh
+tty-clock
 vscodium-bin
 yay
