@@ -24,7 +24,6 @@ hyprland
 hyprpicker
 hyprsunset
 jq
-kitty
 lazydocker
 lazygit
 less
@@ -47,6 +46,8 @@ ripgrep
 slurp
 sudo
 swaybg
+termusic
+tmux
 tree
 ttf-jetbrains-mono
 vim
@@ -58,3 +59,4 @@ wireplumber
 wl-clipboard
 wofi
 yazi
+yt-dlp
